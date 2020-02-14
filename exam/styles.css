@@ -1,0 +1,104 @@
+
+		body{
+			background:url(images/bg.gif) repeat;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		hr{
+			color: #800000;
+			background-color: #800000;
+			height: 0px;
+			padding: 0;
+		}
+		a{
+			text-decoration: none;
+			padding: 5px;
+			color: black;
+		}
+		p{
+			padding: 10px;
+		}
+		label{
+			font-weight: bold;
+		}
+		.current{
+			border-radius: 5px;
+			text-decoration: none;
+			background-color: black;
+			padding: 5px;
+			color: white;
+		}
+		.header a:hover{
+			border-radius: 5px;
+			text-decoration: none;
+			padding: 5px;
+			background-color: white;
+			color: black;
+		}
+		.main{
+			border-radius: 10px;
+			padding: 0px;
+			width: 800px;
+			height: 800px;
+			background-color: white;
+			margin: 0px auto;
+		}
+		.header{
+			border-top-right-radius: 10px;
+			border-top-left-radius: 10px;
+			background-image:url();
+			background-repeat: repeat-x;
+			border: 0;
+			height: 10%;
+		}
+		.content{
+			padding: 15px;
+			text-align: justify;
+			border: 0;
+			height: 78%;
+		}
+		.footer{
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+			background-image:url();
+			background-repeat: repeat-x;
+			font-size: 12px;
+			text-align: center;
+			border: 0;
+			height: 10%;
+		}
+		.footer a:hover{
+			text-decoration: underline;
+			padding: 5px;
+			color: #41A317;
+		}
+		.submit{
+			font-weight: bold;
+			color: #800000;
+			background-color: white;
+			padding: 1em;
+		}
+		.timer{
+			color: red;
+			margin: 10px;
+			padding: 5px;
+			text-align: center;
+			border: 3px solid;
+			position: fixed; 
+			top: 70px; 
+			left: 30px;
+		}
+		.admin{
+			padding: 15px;
+			height: 78%;
+			overflow: scroll; 
+		}
+		.app_form{
+			padding: 15px;
+			height: 78%;
+			overflow: scroll;
+		}
+		.app_form p{
+			margin: 0px;
+			padding: 0px;
+			font-size: 12px;
+		}

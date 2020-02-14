@@ -1,0 +1,85 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#181818 url(../images/b_body.gif) 0 0 repeat-x; color:#3e3e3e; font:11px/16px Arial, Helvetica, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:11px/16px Arial, Helvetica, sans-serif; color:#3e3e3e; text-decoration:underline;}
+p a:hover{ color:#3e3e3e; text-decoration:none;}
+
+.headline{font:12px/16px Arial, Helvetica, sans-serif; color:#3e3e3e; font-weight:bold}
+span{color: red;}
+#container{width:732px; margin:0 auto;}
+#container_fb{width:520px; padding:25px;}
+
+
+/* TOP */
+
+#topPan{width:732px; height:63px; position:relative; color:#889c93;}
+#topPan a{text-decoration: none; color:#889c93;}
+#topPan p{text-align: right; padding-top: 20px;}
+
+/* HEADER */
+
+#headerPan{width:732px; height:246px; position:relative; background:url(../images/b_header1.jpg) 0 0 no-repeat}
+
+#headerPan img#logo{position:absolute; top:34px; left:524px}
+#headerPan img#slogan{position:absolute; top:158px; left:100px}
+
+#gallery {height: 160px; background:white; padding:10px; min-height:76px; margin:0 auto;}
+/* CONTENT */
+a{font:11px/16px Arial, Helvetica, sans-serif; color:#3e3e3e; text-decoration:none;}
+a:hover{ color:#3e3e3e; text-decoration:underline;}
+
+#contentPan{width:732px; position:relative; padding-top:19px; background:#e3e3e3 url(../images/b_content.gif) 0 0 repeat-x}
+#contentPan h1{text-align: center;}
+#c1{width:454px; margin:0 25px 0 25px; float:left; display:inline}
+#c2{width:183px; margin:0 0 0 0; float:left}
+
+#welcome {width:183px; float:left; margin:0 52px 0 24px; }
+#welcome h2{height:49px; position:relative; background:url(../images/h_featured.gif) 0 0 no-repeat; margin-bottom:6px}
+#welcome img{margin-bottom:10px}
+#welcome p{padding:0px 5px}
+
+#featured {width:183px; float:left; margin:0 0 0 0; }
+#featured h2{height:49px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:6px}
+#featured img{margin-bottom:10px}
+#featured p{padding:0px 5px; margin-bottom:10px}
+
+#featured ul{margin-left:3px}
+#featured ul li{ background: url(../images/index_61.gif) 0 7px no-repeat; padding:0 0 0 15px; margin-bottom:8px; }
+#featured ul li a{font:10px/14px Tahoma, Geneva, sans-serif; color:#24a6bc; text-decoration:underline;}
+#featured ul li a:hover{color:#24a6bc; text-decoration:none}
+
+#solutions{margin-bottom: 20px; height: 28px; background:white url(../images/img_solutions.jpg) 16px 16px no-repeat; padding:16px 9px 20px 100px; min-height:76px}
+/*solutions h2{height:21px; position:relative; background:url(../images/h_solutions.gif) 0 0 no-repeat; margin-bottom:6px}*/
+#solutions p  a{font:11px/16px Arial, Helvetica, sans-serif; color:#455ba7; text-decoration:none;}
+#solutions a{font:11px/16px Arial, Helvetica, sans-serif; color:#455ba7; text-decoration:none;}
+#solutions h1{text-align: left; padding: 0px;}
+#solutions h1{text-align: left; padding: 0px;}
+p a:hover{ color:#000; text-decoration:none;}
+
+#news {margin-bottom:20px }
+#news h2{height:28px; position:relative; background:url(../images/h_news.gif) 0 0 no-repeat; margin-bottom:6px}
+#news p{margin-bottom:0px}
+#news p.date{padding:0 0 0 26px; background:url(../images/date.jpg) 0 0 no-repeat; font:11px/16px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#3e3e3e; font-weight:bold; margin-bottom:5px}
+
+#energy h2{height:28px; position:relative; background:url(../images/h_energy.gif) 0 0 no-repeat; margin-bottom:6px}
+#energy img{margin-bottom:10px}
+
+/* FOOTER */
+
+#footerPan {width:732px; height:55px;}
+#footerPan p{padding: 12px 0 0 0; font:10px/16px Tahoma, Geneva, sans-serif; font-weight:normal; text-align:center; color:#889c93;}
+#footerPan p span{ font:10px/16px Tahoma, Geneva, sans-serif; color:#889c93;}
+#footerPan p a{ font:10px/16px Tahoma, Geneva, sans-serif; color:#889c93; text-decoration:none; padding: 0 3px }
+#footerPan p a:hover{ font:10px/16px Tahoma, Geneva, sans-serif; text-decoration:underline;}
+
+/* ADMIN */
+#nav{width: 732px; height: 50px;}
+#nav a{font:24px/16px Arial; color: white; text-decoration: none; padding-right: 10px;}
+
+#top{width:732px; height:50px; position:relative; background: black; }
+
+#content{width:732px; position:relative; padding-top:19px; background:#e3e3e3 url(../images/b_content.gif) 0 0 repeat-x}
